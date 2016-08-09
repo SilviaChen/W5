@@ -60,19 +60,19 @@ namespace W5
                 Console.WriteLine("Source path does not exists.");
             }
            */
-            
+            DirectoryInfo dir = new DirectoryInfo(System.AppDomain.CurrentDomain.BaseDirectory);
 
-            if (!File.Exists(@"C:\Users\Silvia\Documents\GitHub\W5\TestFolder\test.txt"))
+            if (!File.Exists(dir.Parent.FullName + @"..\..\..\TestFolder\test.txt"))
             {
-                File.Create(@"C:\Users\Silvia\Documents\GitHub\W5\TestFolder\test.txt");
+                File.Create(dir.Parent.FullName + @"..\..\..\TestFolder\test.txt");
             }
-            
+      
             //StreamReader sr = new StreamReader(@"C:\TestFolder\subDir\test.txt");
             //StreamWriter sw = new StreamWriter(@"C:\TestFolder\testOriginal.txt");
-            string text = System.IO.File.ReadAllText(@"C:\Users\Silvia\Documents\GitHub\W5\TestFolder\testOriginal.txt");
+            string text = System.IO.File.ReadAllText(dir.Parent.FullName + @"..\..\..\TestFolder\testOriginal.txt");
             //System.Console.WriteLine("{0}",text);
 
-            using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"C:\Users\Silvia\Documents\GitHub\W5\TestFolder\test.txt"))
+            using (System.IO.StreamWriter file = new System.IO.StreamWriter(dir.Parent.FullName + @"..\..\..\TestFolder\test.txt"))
             {
                 file.Write(text);
             }
@@ -82,7 +82,8 @@ namespace W5
             //sw.Write(Console.ReadLine());
             //sw.Close();
 
-           
+               
+            Console.ReadKey();
         }
     }
 }

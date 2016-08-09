@@ -4,3 +4,9 @@ C:\Users\Silvia\Documents\GitHub\W5\W5\bin\Debug\W5.exe
 C:\Users\Silvia\Documents\GitHub\W5\W5\bin\Debug\W5.pdb
 C:\Users\Silvia\Documents\GitHub\W5\W5\obj\Debug\W5.exe
 C:\Users\Silvia\Documents\GitHub\W5\W5\obj\Debug\W5.pdb
+C:\Users\chensil\Documents\GitHub\W5\W5\bin\Debug\W5.exe.config
+C:\Users\chensil\Documents\GitHub\W5\W5\obj\Debug\W5.exe
+C:\Users\chensil\Documents\GitHub\W5\W5\obj\Debug\W5.pdb
+C:\Users\chensil\Documents\GitHub\W5\W5\bin\Debug\W5.exe
+C:\Users\chensil\Documents\GitHub\W5\W5\bin\Debug\W5.pdb
+C:\Users\chensil\Documents\GitHub\W5\W5\obj\Debug\W5.csprojResolveAssemblyReference.cache
